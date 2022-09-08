@@ -118,11 +118,11 @@ Official site: https://github.com/gohutool/docker.ui
 
 ### From hub.docker.com
 - pull image from hub
-  - docker image pull joinsunsoft/docker.ui
+  - docker image pull joinsunsoft/docker.ui     #拉镜像
 - start container with image, and publish 8999 port to your port
-  - docker container run --rm --name docker.ui -v /var/run/docker.sock:/var/run/docker.sock -p 8999:8999 joinsunsoft/docker.ui
+  - docker container run --rm --name docker.ui -v /var/run/docker.sock:/var/run/docker.sock -p 8999:8999 joinsunsoft/docker.ui    #构建命令
 
 ## Visit the browser tool
-- Now, you can visit like as http://192.168.56.102:8999 .
-- Default Username/Password ginghan/123456
+- Now, you can visit like as http://192.168.56.102:8999 .     #访问地址
+- Default Username/Password ginghan/123456        #用户名和密码
 - Enjoy it now.
